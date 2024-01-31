@@ -1,0 +1,17 @@
+# Ignore object files
+*.o
+
+# Ignore archive files
+*.a
+
+# Ignore executables
+*
+
+# But do not ignore Makefile and source files
+!Makefile
+!*.c
+!*.h
+
+# Ignore IDE specific files
+.vscode/
+*.code-workspace
